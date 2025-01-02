@@ -1,0 +1,75 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; /* Fuente*/
+    margin: 0; /* márgenes generales */
+    padding: 0; /* márgenes generales */
+  } 
+  header {
+    text-align: center; /* Alineamiento del encabezado */
+    padding: 50px 0; /* Márgenes */
+    background-image: url('https://res.cloudinary.com/dh6ipg8bj/image/upload/v1735820476/Purple_and_White_Modern_Computer_Class_Google_Classroom_Header_ziwi71.png');
+    /* Se inserta una imagen */
+    background-size: cover; /* Tamaño del fondo */
+    background-position: top; /* Posición del fondo */
+    color: #ffffff; /* Color del encabezado */
+    height: 40vh;
+    overflow: hidden;
+  }
+  #inicio h1 { 
+    font-size: 5em; /* Tamaño del texto principal */
+    margin: 0; /* Márgenes */
+    margin-top: 10px; /* Márgenes */
+    text-shadow: 2px 2px 2px #ff000072; /* Sombra del texto */
+  }
+
+  #inicio h1 span { /* Color del texto "Javascript!" */
+    color: #0a6902;
+  }
+
+  section { /* Alinea y ajusta las secciones" */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  button { /* Característica de los botones" */
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #196c77;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  section#form { /* Color de la segunda sección */
+    background-color: #496a7ab4;
+  }
+
+  form { /* Edición del formulario que completa datos */
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  form label { /* Forma de los bloques de texto */
+    display: block;
+    margin-bottom: 5px;
+  }
+  form input,
+  form textarea { /* Ajustes área del texto */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0f4079;
+    border-radius: 5px;
+  }
+  form button { /* Botón final de envío de datos */
+    width: 50%;
+    margin-left: 25%;
+  }
+  footer { /* Edición del pie de página */
+    text-align: center;
+    background-color: #0054d1; 
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
